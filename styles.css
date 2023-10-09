@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive sans-serif ;
+}
+body{
+    height: 100vh;
+}
+header{
+    background-color: blanchedalmond;
+}
+main{
+    height: auto; 
+    padding-bottom: 30px;
+    background-image: url(sea-164989_1920.jpg);
+    
+}
+#main-header{
+    border-radius: 5px;
+}
+#header-title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 5px 5px 15px #030202;
+}
+.container{
+    width:50%;
+    padding-top: 100px;
+    height: auto;
+}
+.card{
+    width: 600px;
+    height: auto;
+    margin: auto;
+    box-shadow: 1em 1em rgb(249, 230, 146);
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem ;
+    border-bottom:4px solid rgb(249, 230, 146) ;
+}
+
+.content{
+    display:1 1 0%;
+    width:90%;
+}
+.item .content .text {
+	font-size: 1.125rem;
+	width: 100%;
+    border-color: transparent;
+}
+
+.item .actions {
+	display: flex;
+}
+.item .actions button {
+	margin-left: 0.5rem;
+	font-weight: 700;
+    font-size:0.9rem;
+    padding:2px 6px;
+}
+footer{
+    color: black;
+    text-align: center;
+    padding: 50px;
+    background: blanchedalmond;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .container{
+        width:70%;
+        padding-top: 150px;
+    }
+    .card{
+        width: 80%;
+        display: grid;
+    }
+    .item{
+        display: grid;
+    }
+    
+    .to-dos{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+    }
+    .item .actions {
+        margin: auto;
+        margin-top: 10px;
+    }
+  }
+@media screen and (max-width: 650px) {
+    .container{
+        width:80%;
+        padding-top: 150px;
+    }
+    .card{
+        width: 80%;
+        display: grid;
+    }
+    .item{
+        display: grid;
+    }
+    
+    .to-dos{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+    }
+    .item .actions {
+        margin: auto;
+        margin-top: 10px;
+    }
+  }
+@media screen and (max-width: 500px) {
+    .container{
+        width:99%;
+        padding-top: 150px;
+    }
+    .card{
+        width: 80%;
+        display: grid;
+    }
+    .item{
+        display: grid;
+    }
+    
+    .to-dos{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+    }
+    .item .actions {
+        margin: auto;
+        margin-top: 10px;
+    }
+  }
